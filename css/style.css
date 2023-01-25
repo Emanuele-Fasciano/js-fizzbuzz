@@ -1,0 +1,43 @@
+body {
+    background-color: #083B4C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.box {
+    width: 110px;
+    height: 110px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #1389B2;
+    margin: 10px
+}
+
+.box-mul-3 {
+    background-color: #0CD6A1;
+}
+
+.box-mul-5 {
+    background-color: #FFD166;
+}
+
+.box-mul-3and5 {
+    background-color: #F0466F;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
