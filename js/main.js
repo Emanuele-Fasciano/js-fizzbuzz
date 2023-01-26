@@ -1,6 +1,6 @@
 const ul = document.getElementById("list")
 
-for (let i = 1; i <= 50; i++) {
+for (let i = 1; i <= 100; i++) {
     if ((i % 3 == 0) && (i % 5 == 0)) {
         ul.innerHTML += `<li class="box box-mul-3and5">FizzBuzz</li>`
     }
